@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+html{
+    background-color:  #f3e5d8;
+    display: flex;
+    justify-content: center;
+   
+   
+}
+.container{
+    display: flex;
+    justify-content: center;  
+}
+
+
+.menu{
+    width: 70%;
+    background-color: white;
+    padding: 5%;
+    border-radius: 10px;
+    margin-top: 100px;
+    
+ 
+   
+}
+.menu img{
+    width: 100%;
+    border-radius: 10px;
+}
+.menu p{
+    font-family: "Outfit", sans-serif;
+}
+.menu h1, h2{
+    font-family:"Young Serif", serif;
+}
+
+#preparation-time{
+    background-color: #f4cee65e;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Outfit", sans-serif;
+}
+#preparation-time h1{
+font-family: "Outfit", sans-serif;
+color: rgb(225, 21, 133);
+font-size: medium;
+}
+#preparation-time ul{
+    line-height: 30px;
+}
+
+.menu h2{
+    color: brown; /*Color de los titulo 2*/
+}
+
+
+.menu ul,ol{
+line-height: 30px; /*Interlineado*/
+font-family: "Outfit", sans-serif;
+}
+.menu   li {
+    margin-bottom: 10px; /* Espacio entre elementos */
+  }
+
+
+
+.menu table{
+  
+    border-collapse: collapse;
+    width: 100%;
+    font-family: "Outfit", sans-serif;
+    
+}
+
+.menu table th, td {
+    border-bottom: 1px solid #ccc;
+    padding: 2px;
+    text-align: left;
+    line-height: 50px; /*Interlineado*/
+    padding-left: 50px;
+   
+    
+  
+  }
+  .columder{
+    font-weight:normal;
+    color: black;
+  }
+
+  .columizq{
+    font-weight:bolder;
+    color: brown;
+  }
+
+
+
